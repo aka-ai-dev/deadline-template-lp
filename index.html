@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>契約・ライセンスの期限管理テンプレート（無料Excel）</title>
+<meta name="description" content="契約の更新期限だけでなく「解約通知期限」まで管理できる無料のExcelテンプレート。通知目安日の自動計算、ダッシュボード自動集計、要対応リスト付き。">
+<style>
+  body { font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", sans-serif; margin: 0; color: #1f2937; background: #f9fafb; line-height: 1.8; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 28px; line-height: 1.5; margin: 24px 0 12px; }
+  h2 { font-size: 20px; margin: 40px 0 12px; border-left: 4px solid #2563eb; padding-left: 10px; }
+  .lead { font-size: 17px; color: #374151; }
+  .pain { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 8px; padding: 16px 20px; margin: 24px 0; }
+  .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 8px 24px 16px; margin: 16px 0; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  .cta { text-align: center; margin: 40px 0; }
+  .btn { display: inline-block; background: #2563eb; color: #fff; font-size: 18px; font-weight: bold; padding: 16px 36px; border-radius: 8px; text-decoration: none; }
+  .btn:hover { background: #1d4ed8; }
+  .note { font-size: 13px; color: #6b7280; }
+  footer { margin-top: 56px; font-size: 13px; color: #6b7280; border-top: 1px solid #e5e7eb; padding-top: 16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>契約の「解約通知期限」、見落としていませんか</h1>
+  <p class="lead">契約・ライセンス・資格などの期限を管理するための、無料のExcelテンプレートです。更新期限だけでなく、<strong>過ぎると解約できなくなる「解約通知期限」</strong>まで管理できます。</p>
+
+  <div class="pain">
+    <strong>こんな経験はありませんか</strong>
+    <ul>
+      <li>自動更新の契約を止めようとしたら、解約通知の期限を過ぎていた</li>
+      <li>更新期限に気づいたのが直前で、慌てて対応した</li>
+      <li>担当者が休む・辞めると、どの契約がいつ切れるか分からなくなる</li>
+    </ul>
+  </div>
+
+  <h2>このテンプレートでできること</h2>
+  <div class="card">
+    <ul>
+      <li><strong>解約通知期限の管理</strong>：期限日と解約通知期限を分けて登録し、それぞれの残り日数を自動計算</li>
+      <li><strong>通知目安日の自動計算</strong>：カテゴリごとに「何日前から対応すべきか」を設定でき、通知目安日が自動で出ます</li>
+      <li><strong>ダッシュボード自動集計</strong>：期限切れ・30日以内・解約期限切れの件数、カテゴリ別／担当者別の件数、年間コストを自動集計</li>
+      <li><strong>要対応リスト</strong>：通知目安日を過ぎて未完了の項目だけを自動表示</li>
+      <li><strong>次回期限日の自動計算</strong>：更新周期（ヶ月）を入れると、繰り返しの期限も自動で繰り上がります</li>
+    </ul>
+  </div>
+
+  <h2>使い方</h2>
+  <div class="card">
+    <ul>
+      <li>ダウンロードして、期限管理表シートに契約・ライセンスを入力するだけです（サンプル行が8件入っています）</li>
+      <li>週に1回、要対応リストとダッシュボードを確認する運用を想定しています</li>
+      <li>対応環境：Microsoft 365版Excel、またはGoogleスプレッドシート（要対応リストの自動表示にFILTER関数を使うため）</li>
+    </ul>
+  </div>
+
+  <div class="cta">
+    <a class="btn" id="dl" href="thanks.html">無料テンプレートをダウンロード</a>
+    <p class="note">登録不要・無料です。Excelファイル（.xlsx）がダウンロードできます。</p>
+  </div>
+
+  <footer>
+    <p>このテンプレートは社内での共有・複製は自由です。再配布はご遠慮ください。</p>
+    <p>個人が開発・配布している無料テンプレートです。</p>
+  </footer>
+</div>
+<script>
+  // 流入元パラメータ（?src=note など）をサンクスページへ引き継ぐ
+  var q = window.location.search;
+  if (q) { document.getElementById('dl').href = 'thanks.html' + q; }
+</script>
+</body>
+</html>
